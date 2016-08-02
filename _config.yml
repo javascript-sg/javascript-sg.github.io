@@ -1,8 +1,9 @@
 excerpt_separator: ""
-pygments: true
+highlighter: true
 markdown: kramdown
 url: http://kahwee.github.io
 title: KahWee Teng
 tagline: A log of everyday life
 description: My awesome new site
 paginate: 5
+gems: [jekyll-paginate, jekyll-assets]
