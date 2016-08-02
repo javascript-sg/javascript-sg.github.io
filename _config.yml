@@ -7,3 +7,5 @@ tagline: A log of everyday life
 description: My awesome new site
 paginate: 5
 gems: [jekyll-paginate, jekyll-assets]
+sass:
+    sass_dir: _sass
