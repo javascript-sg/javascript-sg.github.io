@@ -25,7 +25,10 @@ You need to Add CORS Configuration. Paste in the following:
 Open the terminal or command line and using curl:
 
 ```sh
-curl -sI -H "Origin: https://kw.sg" -H "Access-Control-Request-Method: GET" https://s3.amazonaws.com/m-vast-vpaid-server/static/vast/vpaid-in-vpaid.xml
+curl -sI \
+-H "Origin: https://kw.sg" \
+-H "Access-Control-Request-Method: GET" \
+https://s3.amazonaws.com/m-vast-vpaid-server/static/vast/vpaid-in-vpaid.xml
 ```
 
 I sent the origin as https://kw.sg
