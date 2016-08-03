@@ -1,5 +1,5 @@
 excerpt_separator: ""
-highlighter: true
+highlighter: rouge
 markdown: kramdown
 url: https://javascript.sg
 title: KahWee Teng
