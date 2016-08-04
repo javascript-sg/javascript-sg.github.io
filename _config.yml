@@ -2,9 +2,9 @@ excerpt_separator: ""
 highlighter: rouge
 markdown: kramdown
 url: https://javascript.sg
-title: KahWee Teng
-tagline: A log of everyday life
-description: My awesome new site
+title: JavaScript.sg
+tagline: JavaScript everyday
+description: Blogging on my coding journey
 paginate: 5
 gems: [jekyll-paginate, jekyll-assets]
 sass:
