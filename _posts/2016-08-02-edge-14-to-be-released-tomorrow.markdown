@@ -8,4 +8,5 @@ Microsoft is preparing to release Windows anniversary updates alongside with Edg
 ![Edge 14 is on par with Firefox](/public/images/edge-improvements.png)
 
 > Edge14 (released tomorrow) is now right up there with Firefox on @html5test. 460 points. (473 with flags)
-> [David Storey](https://twitter.com/dstorey/status/760176826257805312)
+>
+> -- [David Storey](https://twitter.com/dstorey/status/760176826257805312)
