@@ -32,6 +32,11 @@
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
 
+        var anchors = document.querySelectorAll('a[href^="//"]')
+        for (var i = 0; i < anchors.length - 1; i++) {
+          anchors[i].setAttribute('href', anchors[i].getAttribute('href').slice(1))
+        }
+
         document.addEventListener('click', function(e) {
           var target = e.target;
 
