@@ -4,8 +4,9 @@ markdown: kramdown
 url: https://javascript.sg
 title: JavaScript.sg
 tagline: JavaScript everyday
+baseurl: ""
 description: Blogging on my coding journey
 paginate: 5
-gems: [jekyll-paginate, jekyll-assets]
+gems: [jekyll-paginate]
 sass:
     sass_dir: _sass
