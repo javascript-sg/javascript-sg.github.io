@@ -17,7 +17,7 @@ Let's look at the first case.
 Basic CORS just want your server response to match an allowable origin. It isn't uncommon to see servers returning with
 
 ```
-Access-Control-Allow-Origin:*
+Access-Control-Allow-Origin: *
 ```
 
 This means it matches any domain name.
