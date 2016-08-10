@@ -63,8 +63,11 @@ Returning an `*` is not allowed and you will be returned with an error.
 Possible Apache2 (httpd) configuration could be:
 
 ```
-SetEnvIf Origin "http(s)?://([\d\w\.]+)$" AccessControlAllowOrigin=$0
+SetEnvIf Origin "(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)*\.?(:\d+)?(\/*)?)" AccessControlAllowOrigin=$0
 Header always set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+<If "-z reqenv('AccessControlAllowOrigin')">
+  Header set Access-Control-Allow-Origin "*"
+</If>
 ```
 
 Possible nginx configuration could be:
