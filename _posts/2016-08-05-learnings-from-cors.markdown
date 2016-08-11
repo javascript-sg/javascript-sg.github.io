@@ -62,7 +62,7 @@ Returning an `*` is not allowed and you will be returned with an error.
 
 Possible Apache2 (httpd) configuration could be:
 
-```
+```perl
 SetEnvIf Origin "(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)*\.?(:\d+)?(\/*)?)" AccessControlAllowOrigin=$0
 Header always set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
 <If "-z reqenv('AccessControlAllowOrigin')">
@@ -72,6 +72,6 @@ Header always set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=A
 
 Possible nginx configuration could be:
 
-```
+```perl
 add_header "Access-Control-Allow-Origin" $http_origin;
 ```
