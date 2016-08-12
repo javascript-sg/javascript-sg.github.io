@@ -17,7 +17,7 @@ brew install php56-mcrypt
 
 ## Updating Apache httpd configuration
 
-Next you will need to edit your Apache configuration. Open `/private/etc/apache2/httpd.conf for that`.
+Next you will need to edit your Apache configuration. Open `/private/etc/apache2/httpd.conf` for that.
 
 ```sh
 sudo nano /private/etc/apache2/httpd.conf
@@ -65,7 +65,7 @@ sudo nano /private/etc/apache2/extra/httpd-vhosts.conf
 
 This is a sample of my VirtualHost:
 
-```
+```perl
 <VirtualHost cors.kahwee:80>
     DocumentRoot "/Users/kahwee/projects/cors"
     ServerName cors.kahwee
