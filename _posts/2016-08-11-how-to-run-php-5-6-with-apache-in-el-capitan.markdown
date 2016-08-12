@@ -27,7 +27,7 @@ Search for `rewrite_module` and `php5_module`.
 
 You have to uncomment them and change them to the following:
 
-```perl
+```
 LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 LoadModule php5_module    /usr/local/opt/php56/libexec/apache2/libphp5.so
 ```
