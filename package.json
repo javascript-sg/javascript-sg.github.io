@@ -1,0 +1,24 @@
+{
+  "name": "kahwee.github.io",
+  "version": "1.0.0",
+  "description": "This site powers [JavaScript.sg](https://javascript.sg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run combine-css",
+    "combine-css": "cleancss -o public/css/all.css public/css/poole.css public/css/lanyon.css public/css/syntax.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahwee/kahwee.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahwee/kahwee.github.io/issues"
+  },
+  "homepage": "https://github.com/kahwee/kahwee.github.io#readme",
+  "devDependencies": {
+    "clean-css": "^3.4.19"
+  }
+}
