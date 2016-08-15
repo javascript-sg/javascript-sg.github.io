@@ -5,7 +5,7 @@ layout: post
 ---
 So Microsoft added Ubuntu into Windows which is quite nice (besides the rather mouthful name). Let's dig a little beneath the surface of things.
 
-## What it is not
+## What it is not?
 
 * It is not a Desktop. Duh. It says "Bash" after all. It didn't occur to me until I installed it.
 * It doesn't integrate with Git for Windows or SSH agent in Windows
@@ -19,11 +19,11 @@ For example, you usually `/etc` directory is mapped here: `C:\Users\KahWee\AppDa
 
 I tried to manually edit the files here in Windows and it glitched out. Somehow the file disappeared from Bash on Ubuntu. 
 
-## How do I get to my Windows drives
+## How do I get to my Windows drives?
 
 It's mounted in `/mnt`. In the case for my `F:` drive, it's mounted here `/mnt/f`. You have access to all your drives.
 
-## How do I restart Bash on Ubuntu
+## How do I restart Bash on Ubuntu?
 
 You can restart only when you restart your Windows.
 
