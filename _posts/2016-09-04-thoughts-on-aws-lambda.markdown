@@ -4,7 +4,7 @@ title: Thoughts on AWS Lambda
 layout: post
 tags: [amazon, aws, s3, lambda, api, microservice]
 ---
-Amazon Web Services has a product called Lambda. It made me rethink what micro-services is about.
+Amazon Web Services has a product called Lambda that I had the opportunity to test out in a Hackathon. It made me rethink what micro-services is about.
 
 The idea isn't a new one, you send your source code up to AWS and it prepares it onto a server and exposes an `index.handler`. What this handler does is that it exposes a set of API that you can call using REST. 
 
