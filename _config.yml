@@ -4,8 +4,14 @@ markdown: kramdown
 url: https://javascript.sg
 title: JavaScript.sg
 tagline: JavaScript everyday
+twitter:
+  username: kahwee
+social:
+  name: KahWee Teng
+  links:
+    - https://twitter.com/kahwee
 description: Blogging on my coding journey
 paginate: 5
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 sass:
     sass_dir: _sass
