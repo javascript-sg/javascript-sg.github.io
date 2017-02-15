@@ -23,7 +23,7 @@ You need to Add CORS Configuration. Paste in the following:
 </CORSConfiguration>
 ```
 
-<h3>How to test</h3>
+### How to test
 
 Open the terminal or command line and using curl:
 

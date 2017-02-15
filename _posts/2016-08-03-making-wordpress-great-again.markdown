@@ -34,7 +34,7 @@ sudo systemctl restart php7.0-fpm
 
 ## Configuring nginx
 
-```
+```sh
 sudo nano /etc/nginx/nginx.conf
 ```
 
