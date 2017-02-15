@@ -2,6 +2,7 @@
 published: true
 title: Mocha v3 released
 layout: post
+tags: [testing, mocha]
 ---
 This is excited -- a major update of a longstanding testing tool.
 

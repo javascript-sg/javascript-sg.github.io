@@ -2,6 +2,7 @@
 published: true
 title: How to make Vary Origin in AWS S3
 layout: post
+tags: [amazon, aws, s3, cors]
 ---
 I've been trying to make Vary Origin work with Amazon Web Services S3. Here is how.
 

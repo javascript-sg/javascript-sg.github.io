@@ -2,6 +2,7 @@
 published: true
 title: Why did Flash have to die?
 layout: post
+tags: [adobe]
 ---
 *(Disclaimer: I work in the advertising industry which utilize Flash for advertising opportunities.)*
 

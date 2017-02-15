@@ -2,6 +2,7 @@
 published: true
 title: Using Uglify screw-ie8 option in gulp
 layout: post
+tags: [uglify]
 ---
 UglifyJS tries to be IE-proof, you can pass a flag in Uglify if you don't care about full compliance with Internet Explorer 6-8 quirks.
 
